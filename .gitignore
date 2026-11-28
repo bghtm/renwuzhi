@@ -1,0 +1,21 @@
+# 本地生成物，不进仓库
+.build/
+dist/
+
+# 原始素材目录（视频/PSD，几个 GB），只留站点里压缩好的产物
+renwuzhi/
+跨圈人物志极速版/
+*.psd
+
+# 含本机绝对路径，仅供本地服务器使用（可选：也排除它，导出静态包不依赖路径）
+data/media-map.json
+
+# 系统杂物
+Thumbs.db
+.DS_Store
+desktop.ini
+__pycache__/
+*.pyc
+
+# 依赖（本项目其实不需要 npm install）
+node_modules/

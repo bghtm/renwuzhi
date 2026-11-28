@@ -1,0 +1,6 @@
+{
+  "videoBase": "",
+  "fileBase": "",
+  "cname": "",
+  "note": "填上外部存储前缀后运行 node tools/export-pages.mjs；含义见 docs/DEPLOY.md"
+}

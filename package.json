@@ -1,0 +1,15 @@
+{
+  "name": "kuake-renwuzhi",
+  "version": "1.2.0",
+  "private": true,
+  "description": "人物志档案（跨圈 / 药圈）— 期列表 / 在线播放 / PPT 翻页 / 下载",
+  "scripts": {
+    "start": "node server.mjs --open",
+    "serve": "node server.mjs",
+    "build:data": "python tools/build-data.py",
+    "build:assets": "python tools/build-assets.py",
+    "build:hls": "python tools/make-hls.py",
+    "build:pages": "node tools/export-pages.mjs",
+    "new:episode": "python tools/add-episode.py"
+  }
+}

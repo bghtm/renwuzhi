@@ -1,0 +1,32 @@
+{
+ "id": "od02",
+ "series": "od",
+ "num": 2,
+ "kind": "episode",
+ "title": "药圈人物志极速版（2）",
+ "topic": "第 2 期 · 上期补充 + 3 位新嘉宾",
+ "guests": [
+  "超级后后后藤",
+  "爱德华",
+  "天才少女伊蕾娜"
+ ],
+ "summary": "本期收录 3 位人物档案",
+ "slideKey": "od02",
+ "cover": "site/media/slides/od02/01.webp",
+ "deck": "content/od/od02/deck.pptx",
+ "video": {
+  "file": "D:\\code\\web\\kuake-renwuzhi\\跨圈人物志极速版\\药圈人物志极速版（2）.mp4",
+  "url": "",
+  "size": 50666954,
+  "sizeText": "48.3 MB",
+  "duration": 389.77,
+  "width": 1728,
+  "height": 1080
+ },
+ "variants": [],
+ "ppt": {
+  "url": "",
+  "downloadName": "药圈人物志极速版（02）配套PPT.pptx"
+ },
+ "videoDownloadName": "药圈人物志极速版（02）.mp4"
+}

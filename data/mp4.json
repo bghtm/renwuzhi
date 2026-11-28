@@ -1,0 +1,116 @@
+{
+ "items": {
+  "ep06.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8806%EF%BC%89.mp4",
+   "bytes": 9371045,
+   "width": 1728,
+   "height": 960,
+   "seconds": 180.1,
+   "mode": "remux"
+  },
+  "od02.mp4": {
+   "src": "files/video/%E8%8D%AF%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8802%EF%BC%89.mp4",
+   "bytes": 22171248,
+   "width": 1728,
+   "height": 928,
+   "seconds": 389.8,
+   "mode": "remux"
+  },
+  "ep01.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8801%EF%BC%89.mp4",
+   "bytes": 24330325,
+   "width": 1728,
+   "height": 960,
+   "seconds": 506.2,
+   "mode": "remux"
+  },
+  "ep01b.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%881%E8%A1%A5%E5%85%85%EF%BC%89.mp4",
+   "bytes": 10404757,
+   "width": 1728,
+   "height": 960,
+   "seconds": 185.3,
+   "mode": "remux"
+  },
+  "ep02.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8802%EF%BC%89.mp4",
+   "bytes": 35578108,
+   "width": 1728,
+   "height": 960,
+   "seconds": 598.8,
+   "mode": "remux"
+  },
+  "ep03.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8803%EF%BC%89.mp4",
+   "bytes": 8875888,
+   "width": 1728,
+   "height": 960,
+   "seconds": 193.2,
+   "mode": "remux"
+  },
+  "ep04.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8804%EF%BC%89.mp4",
+   "bytes": 9850034,
+   "width": 1728,
+   "height": 960,
+   "seconds": 170.3,
+   "mode": "remux"
+  },
+  "ep05.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8805%EF%BC%89.mp4",
+   "bytes": 30628170,
+   "width": 1728,
+   "height": 960,
+   "seconds": 381.7,
+   "mode": "remux"
+  },
+  "ep07.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8807%EF%BC%89.mp4",
+   "bytes": 14068201,
+   "width": 1728,
+   "height": 960,
+   "seconds": 266.1,
+   "mode": "remux"
+  },
+  "ep08.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8808%EF%BC%89.mp4",
+   "bytes": 36294529,
+   "width": 1728,
+   "height": 960,
+   "seconds": 454.9,
+   "mode": "remux"
+  },
+  "ep09.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8809%EF%BC%89.mp4",
+   "bytes": 26673194,
+   "width": 1728,
+   "height": 960,
+   "seconds": 546.2,
+   "mode": "remux"
+  },
+  "ep10.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8810%EF%BC%89.mp4",
+   "bytes": 39365016,
+   "width": 1728,
+   "height": 960,
+   "seconds": 704.9,
+   "mode": "remux"
+  },
+  "ep11.mp4": {
+   "src": "files/video/%E8%B7%A8%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8811%EF%BC%89.mp4",
+   "bytes": 26709278,
+   "width": 1728,
+   "height": 960,
+   "seconds": 387.4,
+   "mode": "remux"
+  },
+  "od01.mp4": {
+   "src": "files/video/%E8%8D%AF%E5%9C%88%E4%BA%BA%E7%89%A9%E5%BF%97%E6%9E%81%E9%80%9F%E7%89%88%EF%BC%8801%EF%BC%89.mp4",
+   "bytes": 15377942,
+   "width": 1728,
+   "height": 960,
+   "seconds": 282.0,
+   "mode": "remux"
+  }
+ }
+}

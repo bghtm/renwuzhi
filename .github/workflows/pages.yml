@@ -1,0 +1,56 @@
+name: deploy-pages
+
+# 推送 main 分支（或手动触发）时，生成静态包并发布到 GitHub Pages。
+# 站点本体（HTML/CSS/JS、封面、幻灯片、数据）进仓库；视频与 PPT 原件放在外部存储，
+# 地址写在 content/pages.json 里，详见 docs/DEPLOY.md。
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出
+        uses: actions/checkout@v4
+
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 生成静态包 dist/
+        run: node tools/export-pages.mjs
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+        with:
+          # 仓库还没在 Settings → Pages 里启用时，自动帮你启用（否则这一步会失败）
+          enablement: true
+
+      - name: 上传产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布
+        id: deployment
+        uses: actions/deploy-pages@v4
